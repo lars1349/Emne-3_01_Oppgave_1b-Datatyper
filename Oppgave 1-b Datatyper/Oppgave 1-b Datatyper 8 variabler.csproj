@@ -1,0 +1,18 @@
+﻿namespace Oppgave_1_b_Datatyper
+{
+    class ÅtteVariabler
+    {
+        static void Main(){
+        char kjønn = 'M';
+        string navn = "Bertram";
+        int alder = 20;
+        bool harFørerkort = true;
+        float gjsnittKarakter = 4.59F;
+        double gjsnittKarafkter = 4.47;
+        decimal sekstiMeterRekord = 8.73M; 
+        long tlfnr = 48169073L;
+
+        Console.WriteLine("Kjønn: " + kjønn);
+
+        }
+    }
